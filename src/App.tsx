@@ -8,7 +8,6 @@ function App() {
   const [time, setTime] = useState(0);
   const [info, setInfo] = useState<string | undefined>(undefined);
   const [rootFontSize, setRootFontSize] = useState("1em");
-  const [showTest, setShowTest] = useState(false);
 
   useEffect(() => {
     document.documentElement.style.setProperty(

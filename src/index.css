@@ -92,9 +92,7 @@ input {
 /* Buttons */
 .react-aria-Button {
   touch-action: none;
-  /* padding-top: 0.35em;
-  padding-bottom: 0.525em; */
-  padding-block: 0.45em;
+  padding-block: 0.6em;
   padding-inline: 0.7em;
   font-size: 1rem;
   box-shadow: 0 0 0 1px #ccc;
@@ -129,10 +127,6 @@ input {
 .react-aria-Button[data-focus-visible] {
   box-shadow: 0 0 0 1px #ccc, 0 0 1px 3px var(--color-primary);
 }
-
-/* .react-aria-Button:has(.spinner) {
-  padding-block: 0.45em;
-} */
 
 .react-aria-Button.muted {
   background: none;
